@@ -4,12 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="Image/city.png" type="image/png" />
     <title>CitySaver</title>
   </head>
   <body>
     <div class="vacationDestinationWebsite">
       <!--This Section is for User Input-->
-      <section class="userInputSection"></section>
+      <section class="userInputSection">
+        <div class="userInput">
+          <div class="destination">
+            <h3>Destination Name</h3>
+            <div class="destinationInput">
+              <input
+                id="destination"
+                type="text"
+                placeholder="Enter Destination Name"
+              />
+            </div>
+          </div>
+
+          <div class="city">
+            <h3>City Name</h3>
+            <div class="cityInput">
+              <input id="city" type="text" placeholder="Enter City Name" />
+            </div>
+          </div>
+
+          <div class="image">
+            <h3>Image Link</h3>
+            <div class="imageInput">
+              <input id="image" type="url" placeholder="Enter Image Link" />
+            </div>
+          </div>
+
+          <div class="description">
+            <h3>Description about City</h3>
+            <div class="descriptionInput">
+              <textarea
+                id="description"
+                type="text"
+                placeholder="Enter Description about the City"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="submitButton">
+            <button id="button">Submit</button>
+          </div>
+        </div>
+      </section>
       <!--This Section is to show the user their Inputs-->
       <section class="showUserInputSection"></section>
     </div>

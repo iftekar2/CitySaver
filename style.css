@@ -1,0 +1,134 @@
+body {
+  /*This is styling the Entire Body*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a535c;
+  color: white;
+  font-family: monospace;
+}
+
+.userInputSection {
+  /*This is styling User Input Section*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+}
+
+.userInput {
+  /*This is styling User Input Div*/
+  background-color: #2c6e49;
+  height: 540px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.destination h3 {
+  /*This is styling H3 element in Destination Div*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinationInput {
+  /*This is styling Destination Input Box*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.city h3 {
+  /*This is styling H3 element in City Div*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityInput {
+  /*This is styling City Input Box*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.image h3 {
+  /*This is styling H3 element in Image Div*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageInput {
+  /*This is styling Image Input Box*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.description h3 {
+  /*This is styling H3 element in Description Div*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionInput {
+  /*This is styling Description Input Box*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.submitButton {
+  /*This is styling SubmitButton Div*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton button {
+  /*This is styling Submit Button*/
+  width: 350px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.submitButton button:hover {
+  /*This is adding effect when we hover over the Button*/
+  background-color: rgb(194, 191, 188);
+  cursor: pointer;
+}
+
+h3 {
+  /*This is styling every H3 element that we have in the page*/
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  /*This is styling every Input Box that we have in teh page*/
+  width: 350px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+textarea {
+  /*This is styling every Textarea Box that we have in the page*/
+  width: 350px;
+  height: 70px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
