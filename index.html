@@ -11,7 +11,7 @@
     <div class="vacationDestinationWebsite">
       <!--This Section is for User Input-->
       <section class="userInputSection">
-        <div class="userInput">
+        <form class="userInput">
           <div class="destination">
             <h3>Destination Name</h3>
             <div class="destinationInput">
@@ -19,6 +19,7 @@
                 id="destination"
                 type="text"
                 placeholder="Enter Destination Name"
+                required
               />
             </div>
           </div>
@@ -26,14 +27,24 @@
           <div class="city">
             <h3>City Name</h3>
             <div class="cityInput">
-              <input id="city" type="text" placeholder="Enter City Name" />
+              <input
+                id="city"
+                type="text"
+                placeholder="Enter City Name"
+                required
+              />
             </div>
           </div>
 
           <div class="image">
             <h3>Image Link</h3>
             <div class="imageInput">
-              <input id="image" type="url" placeholder="Enter Image Link" />
+              <input
+                id="image"
+                type="url"
+                placeholder="Enter Image Link"
+                required
+              />
             </div>
           </div>
 
@@ -44,6 +55,7 @@
                 id="description"
                 type="text"
                 placeholder="Enter Description about the City"
+                required
               ></textarea>
             </div>
           </div>
@@ -51,7 +63,7 @@
           <div class="submitButton">
             <button id="button">Submit</button>
           </div>
-        </div>
+        </form>
       </section>
       <!--This Section is to show the user their Inputs-->
       <div class="show" id="show"></div>
