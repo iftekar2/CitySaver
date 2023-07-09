@@ -38,6 +38,9 @@ function showInfo(destination, city, image, description) {
         <h3>City Description</h3>
         <p id="descriptionInput">${description}</p>
       </div>
+      <div class="removeButtonDiv">
+        <button class="removeButton" id="removeButton">Remove</button>
+      </div>
     </div>
   </section>`;
   // Create a new container element
