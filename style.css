@@ -195,3 +195,8 @@ img {
   border-radius: 5px;
   border: 1px solid black;
 }
+
+.removeButton:hover {
+  cursor: pointer;
+  background-color: rgb(194, 195, 196);
+}

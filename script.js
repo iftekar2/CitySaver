@@ -1,3 +1,6 @@
+const submitButton = document.getElementById("button");
+submitButton.addEventListener("click", showUserInfo);
+
 function showUserInfo(event) {
   event.preventDefault();
   const destination = document.getElementById("destination").value;
@@ -42,13 +45,16 @@ function showInfo(destination, city, image, description) {
           <button class="removeButton" id="removeButton">Remove</button>
         </div>
       </div>
-    </section>`;
+    </section>
+  `;
 
   const newContainer = document.createElement("div");
   newContainer.innerHTML = newShow;
 
   show.appendChild(newContainer);
-}
 
-const submitButton = document.getElementById("button");
-submitButton.addEventListener("click", showUserInfo);
+  const removeSection = newContainer.querySelector(".removeButton");
+  removeSection.addEventListener("click", () => {
+    newContainer.remove();
+  });
+}
