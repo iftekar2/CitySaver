@@ -134,7 +134,8 @@ textarea {
   font-family: monospace;
 }
 
-.show {
+.showUserInputs {
+  /*This is stuling showUserInputs div that we have in HTML*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -142,6 +143,7 @@ textarea {
 }
 
 .showUserInputSection {
+  /*This is styling showUserInputSection in JS*/
   height: 100vh;
   width: 500px;
   display: flex;
@@ -150,6 +152,7 @@ textarea {
 }
 
 .showUserInput {
+  /*This is styling showUserInput div*/
   background-color: #3a506b;
   height: 600px;
   width: 450px;
@@ -159,36 +162,42 @@ textarea {
 
 .showUserInput p,
 #imageInput {
+  /*This is styling p tag and Image in showUserInput Div*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 p {
+  /*This is styling the p tags that we have in the page*/
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .imageDiv {
+  /*This is styling the Image Div*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 img {
+  /*This is styling the Image on out page*/
   height: 200px;
   width: 230px;
   border-radius: 10px;
 }
 
 .removeButtonDiv {
+  /*This is styling the removeButtonDiv that we have in our page*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .removeButton {
+  /*This is styling removeButton */
   width: 350px;
   height: 35px;
   font-size: 20px;
@@ -197,6 +206,7 @@ img {
 }
 
 .removeButton:hover {
+  /*This is stuling removeButton when we hover over it*/
   cursor: pointer;
   background-color: rgb(194, 195, 196);
 }
